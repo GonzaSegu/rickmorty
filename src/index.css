@@ -1,0 +1,30 @@
+.contenedorPj{
+    display:grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: auto;
+    gap:1.5rem;
+    margin: 20px 0px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .contenedorPj{
+        grid-template-columns: auto auto auto auto;
+    }
+  }
+
+.landingPage{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-fix{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    justify-content: space-between;
+}
